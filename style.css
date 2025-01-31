@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Luckiest+Guy&display=swap');
 
 :root{
     --color-blue:#F7B5B7;
@@ -13,7 +13,6 @@ body{
     align-items:center;
     flex-direction:column;
     width:100%;
-    height:100vh;
 }
 header#menu{
     display:flex;
@@ -82,7 +81,7 @@ section#inicio{
     position:relative;
     background:red;
     width:95%;
-    height:90dvh;
+    height:80vh;
     background-image:url("./src/images/background-inicio.jpg");
     /*background-image:linear-gradient(to top,rgb(161, 159, 159) 50%,rgb(117, 115, 115),rgb(116, 116, 116));*/
     overflow:hidden;
@@ -96,11 +95,11 @@ section#inicio > article{
     gap:15px;
 }
 section#inicio > article > h1{
-    font-family:"Josefin Sans",sans-serif;
+    font-family:"Luckiest Guy",sans-serif;
     font-size:3.6rem;
     letter-spacing:4px;
     line-height:50px;
-    font-weight:bold;
+    font-weight:400;
 }
 
 section#inicio > article > p{
@@ -268,7 +267,9 @@ section#filtros-moda > div > strong > p > strong > img{
     }
     section#inicio > article > h1{
         font-size:.6rem;
-        line-height:38px;
+        letter-spacing:4px;
+        line-height:42px;
+        text-align:center;
         font-size:2.6rem;
         font-weight:bold;
     }
