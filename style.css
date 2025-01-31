@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root{
-    --color-blue:rgb(12, 62, 228);
+    --color-blue:#F7B5B7;
 }
 *{
     margin:0;
@@ -81,43 +81,53 @@ header#menu > article > img.svg{
 section#inicio{
     position:relative;
     background:red;
-    width:100%;
-    height:100dvh;
+    width:95%;
+    height:90dvh;
+    background-image:url("./src/images/background-inicio.jpg");
+    /*background-image:linear-gradient(to top,rgb(161, 159, 159) 50%,rgb(117, 115, 115),rgb(116, 116, 116));*/
+    overflow:hidden;
 }
 section#inicio > article{
     position:absolute;
-    left:0;
+    left:40px;
+    top:35%;
     display:flex;
     flex-direction:column;
     gap:20px;
 }
 section#inicio > article > h1{
     font-family:"Josefin Sans",sans-serif;
-    font-size:3rem;
+    font-size:3.6rem;
     letter-spacing:4px;
     line-height:50px;
     font-weight:bold;
 }
 
 section#inicio > article > p{
-    font-size:.8rem;
+    font-size:.9rem;
     color:rgba(0, 0, 0, 0.658);
 }
 section#inicio > article > div{
     display:flex;
     align-items:center;
-    gap:17px;
+    gap:18px;
 }
 section#inicio > article > div > button{
     display:flex;
     align-items:center;
     justify-content:center;
-    border:solid black .1px;
+    border:solid rgba(0, 0, 0, 0.575) .1px;
     background:none;
-    padding:13px 10px;
-    font-size:.6rem;
+    padding:12.7px 15px;
+    font-size:.7rem;
     font-weight:bold;
 }
 section#inicio > article > div > button:nth-child(2){
     border:none;
+}
+section#inicio > img#moda-mulher{
+    position: absolute;
+    right:20px;
+    bottom:20px;
+    scale:1.3;
 }
