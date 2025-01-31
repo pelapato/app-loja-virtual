@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root{
     --color-blue:rgb(12, 62, 228);
@@ -8,6 +8,7 @@
     padding:0;
 }
 body{
+    font-family:"Hind Siliguri",sans-serif;
     display:flex;
     align-items:center;
     flex-direction:column;
@@ -15,7 +16,6 @@ body{
     height:100vh;
 }
 header#menu{
-    font-family:"Hind Siliguri",sans-serif;
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -77,4 +77,47 @@ header#menu > article > button#btn-contato{
 header#menu > article > img.svg{
     width:15px;
     height:15px;
+}
+section#inicio{
+    position:relative;
+    background:red;
+    width:100%;
+    height:100dvh;
+}
+section#inicio > article{
+    position:absolute;
+    left:0;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+section#inicio > article > h1{
+    font-family:"Josefin Sans",sans-serif;
+    font-size:3rem;
+    letter-spacing:4px;
+    line-height:50px;
+    font-weight:bold;
+}
+
+section#inicio > article > p{
+    font-size:.8rem;
+    color:rgba(0, 0, 0, 0.658);
+}
+section#inicio > article > div{
+    display:flex;
+    align-items:center;
+    gap:17px;
+}
+section#inicio > article > div > button{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:solid black .1px;
+    background:none;
+    padding:13px 10px;
+    font-size:.6rem;
+    font-weight:bold;
+}
+section#inicio > article > div > button:nth-child(2){
+    border:none;
 }
