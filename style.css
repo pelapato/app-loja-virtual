@@ -283,4 +283,41 @@ section#filtros-moda > div > strong > p > strong > img{
         width:100%;
         justify-content:center;
     }
+    section#menu-filtro{
+        height:100px;
+        width:100%;
+    }
+    section#menu-filtro > nav > ul{
+        width:100%;
+        gap:10px;
+        margin-left:20px;
+    }
+    section#menu-filtro > nav > ul > li > button{
+        width:120px;
+        height:37px;
+        border-radius:2px;
+        font-size:.7rem;
+    }
+    section#filtros-moda{
+        width:100%;
+    }
+    section#filtros-moda > div{
+        width:100%;
+        flex-direction:column;
+        gap:13px;
+    }
+    section#filtros-moda > div > article{
+        width:100%;
+        justify-content:center;
+    }
+    section#filtros-moda > div > article > input{
+        padding:14px 12px;
+        width:70%;
+    }
+    section#filtros-moda > div > strong{
+        width:80%;
+    }
+    section#filtros-moda > div > strong > p{
+        font-size:.7rem;
+    }
 }
